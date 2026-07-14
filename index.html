@@ -4,13 +4,13 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Victoria Chymshyt — Jewish Genealogy Researcher</title>
-<meta name="description" content="Professional Jewish genealogy research in Ukrainian and Polish archives. 15+ years, 200+ family studies. Volhynia, Rivne and shtetl ancestry. Request a consultation.">
+<meta name="description" content="Professional Jewish genealogy research: tracing ancestors, relatives from past generations and lost family branches through Ukrainian and Polish archives. 15+ years, 200+ family studies.">
 <meta name="robots" content="index, follow">
 <meta name="author" content="Victoria Chymshyt">
 <meta name="keywords" content="Jewish genealogy, Volhynia, Rivne, Rowne, Jewish ancestry research, family tree, Ukrainian archives, Polish archives, shtetl, JewishGen, POLIN">
 <meta property="og:type" content="profile">
 <meta property="og:title" content="Victoria Chymshyt — Jewish Genealogy Researcher">
-<meta property="og:description" content="Professional Jewish genealogy research in Ukrainian and Polish archives. 15+ years, 200+ family studies.">
+<meta property="og:description" content="Tracing ancestors, relatives from past generations and lost family branches through professional archival research.">
 <meta property="og:image" content="assets/victoria.jpg">
 <meta property="og:locale" content="en_US">
 <meta property="og:locale:alternate" content="uk_UA">
@@ -23,7 +23,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,400&family=Courier+Prime:wght@400;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"ProfessionalService","name":"Victoria Chymshyt — Jewish Genealogy Research","description":"Jewish genealogy and ancestry research in Ukrainian and Polish archives, specialising in Volhynia and Rivne.","areaServed":"Worldwide","knowsLanguage":["uk","pl","en"],"email":"mailto:rivnejew@gmail.com","founder":{"@type":"Person","name":"Victoria Chymshyt","jobTitle":"Jewish Genealogy Researcher","alumniOf":"University of Warsaw"},"hasOfferCatalog":{"@type":"OfferCatalog","name":"Genealogy services","itemListElement":[{"@type":"Offer","itemOffered":{"@type":"Service","name":"Family history reconstruction"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Ancestor and relative search"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Archival document retrieval"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Family tree building"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Documents for citizenship claims"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Transcription and translation"}}]}}
+{"@context":"https://schema.org","@type":"ProfessionalService","name":"Victoria Chymshyt — Jewish Genealogy Research","description":"Jewish genealogy research focused on tracing ancestors, relatives from past generations and lost family branches through Ukrainian and Polish archives.","areaServed":"Worldwide","knowsLanguage":["uk","pl","en"],"email":"mailto:rivnejew@gmail.com","founder":{"@type":"Person","name":"Victoria Chymshyt","jobTitle":"Jewish Genealogy Researcher","alumniOf":"University of Warsaw"},"hasOfferCatalog":{"@type":"OfferCatalog","name":"Genealogy services","itemListElement":[{"@type":"Offer","itemOffered":{"@type":"Service","name":"Archival ancestor and relative research"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Family branch reconstruction"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Archival document retrieval"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Family tree building"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Documents for citizenship claims"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Transcription and translation"}}]}}
 </script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Do I need a ready family tree to start?","acceptedAnswer":{"@type":"Answer","text":"No. A single name, a town, or one old document is enough to begin. We build outward from whatever you already have."}},{"@type":"Question","name":"What if records were lost or destroyed in the war?","acceptedAnswer":{"@type":"Answer","text":"Volhynia's history is painful, but a great deal still survives across Ukrainian and Polish archives. I search widely and tell you honestly what is realistic before you commit."}},{"@type":"Question","name":"How long does the research take?","acceptedAnswer":{"@type":"Answer","text":"Usually one to three months, depending on the complexity of the case and how much information you can provide at the start."}},{"@type":"Question","name":"Which regions and languages do you cover?","acceptedAnswer":{"@type":"Answer","text":"I specialise in Rivne and the Volhynia region and work across Ukraine and Poland, reading records in Ukrainian, Polish and English."}},{"@type":"Question","name":"Is my family information kept private?","acceptedAnswer":{"@type":"Answer","text":"Always. Your information and your family's story remain strictly confidential at every stage of the work."}},{"@type":"Question","name":"How much does it cost?","acceptedAnswer":{"@type":"Answer","text":"Every family is different, so the cost is agreed individually after our first, no-obligation consultation."}}]}
@@ -142,7 +142,7 @@
 
   #archive .sec-head{margin-bottom:36px}
   .gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
-  .plate{background:var(--surface);border:1px solid var(--line);padding:12px;box-shadow:var(--shadow);transition:.2s}
+  .plate{margin:0;background:var(--surface);border:1px solid var(--line);padding:12px;box-shadow:var(--shadow);transition:.2s}
   .plate:hover{transform:translateY(-4px)}
   .plate .frame{overflow:hidden;background:var(--surface-2);aspect-ratio:4/3}
   .plate img{width:100%;height:100%;object-fit:cover;filter:sepia(.12) contrast(1.02)}
@@ -151,7 +151,7 @@
   .plate figcaption .idx{color:var(--text-dim)}
   #heritage{background:var(--bg-2)}
   .masonry{columns:3;column-gap:20px}
-  .masonry .plate{break-inside:avoid;margin-bottom:20px;display:block}
+  .masonry .plate{break-inside:avoid;margin:0 0 20px;display:block}
   .masonry .plate img{width:100%;height:auto;display:block;background:var(--surface-2);filter:sepia(.08) contrast(1.02)}
   :root[data-theme="dark"] .masonry .plate img{filter:sepia(.16) brightness(.9)}
   #faq{background:var(--bg-2)}
@@ -196,15 +196,33 @@
   @media (max-width:920px){
     nav.main{display:none}
     .nav-toggle{display:grid}
-    .mobile-nav{display:block;position:fixed;inset:66px 0 auto 0;background:var(--bg);border-bottom:1px solid var(--line);transform:translateY(-130%);transition:transform .25s;z-index:30;padding:10px 0}
+    .mobile-nav{display:block;position:absolute;inset:100% 0 auto 0;background:var(--bg);border-bottom:1px solid var(--line);transform:translateY(-130%);transition:transform .25s;z-index:30;padding:10px 0}
     .mobile-nav.open{transform:translateY(0)}
     .mobile-nav a{display:block;padding:14px 28px;text-decoration:none;color:var(--text);font-family:var(--mono);font-size:13px;letter-spacing:.06em;text-transform:uppercase;border-bottom:1px solid var(--line-soft)}
     .hero-grid,.about-grid,.consult-grid{grid-template-columns:1fr;gap:40px}
     .svc-grid{grid-template-columns:1fr}
     .steps{grid-template-columns:1fr 1fr}
     .gallery{grid-template-columns:1fr 1fr}
+    .masonry{columns:2}
   }
-  @media (max-width:560px){.stats-grid{grid-template-columns:1fr}.stat{border-inline-end:0;border-bottom:1px solid var(--line)}.steps{grid-template-columns:1fr}.field{grid-template-columns:1fr;gap:2px}}
+  @media (max-width:560px){
+    .bar{display:grid;grid-template-columns:1fr;padding-block:10px;gap:10px}
+    .brand{width:100%;min-width:0}
+    .brand b{font-size:18px}
+    .brand small{font-size:9px;line-height:1.5;white-space:normal}
+    .controls{width:100%;justify-content:space-between;gap:8px}
+    .langs{flex:1;justify-content:center}
+    .lang-btn{flex:1;padding:6px 5px}
+    .hero{padding-top:48px}
+    .hero h1{font-size:clamp(38px,12vw,52px)}
+    .gallery{grid-template-columns:1fr}
+    .masonry{columns:1}
+    .masonry .plate{margin-bottom:16px}
+    .stats-grid{grid-template-columns:1fr}
+    .stat{border-inline-end:0;border-bottom:1px solid var(--line)}
+    .steps{grid-template-columns:1fr}
+    .field{grid-template-columns:1fr;gap:2px}
+  }
   @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
 </style>
 </head>
@@ -250,9 +268,9 @@
   <section class="hero">
     <div class="wrap hero-grid">
       <div>
-        <p class="eyebrow" data-i18n="hero_eyebrow">Jewish genealogy · Volhynia &amp; Rivne</p>
-        <h1 data-i18n="hero_title">Turning scattered records into the story of your family</h1>
-        <p class="lead" data-i18n="hero_lead">I trace Jewish ancestry through Ukrainian and Polish archives.</p>
+        <p class="eyebrow" data-i18n="hero_eyebrow">Ancestors · relatives · family history</p>
+        <h1 data-i18n="hero_title">Finding the people behind your family story</h1>
+        <p class="lead" data-i18n="hero_lead">I trace ancestors, relatives from past generations and lost family branches through archival records — restoring the people behind your family history.</p>
         <p class="reassure"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M20 6 9 17l-5-5"/></svg><span data-i18n="reassure">Start with a name, a town, or one old document.</span></p>
         <div class="cta-row">
           <a class="btn primary" href="#consult" data-i18n="cta_consult">Request a consultation</a>
@@ -305,8 +323,8 @@
     <div class="wrap">
       <div class="sec-head"><p class="eyebrow" data-i18n="services_eyebrow">Services</p><h2 data-i18n="services_title">What I can find for you</h2></div>
       <div class="svc-grid">
-        <div class="svc"><span class="code">01</span><h3 data-i18n="svc_1">Reconstructing your family history</h3></div>
-        <div class="svc"><span class="code">02</span><h3 data-i18n="svc_2">Finding ancestors and living relatives</h3></div>
+        <div class="svc"><span class="code">01</span><h3 data-i18n="svc_1">Tracing ancestors and relatives through archives</h3></div>
+        <div class="svc"><span class="code">02</span><h3 data-i18n="svc_2">Reconstructing family branches and connections</h3></div>
         <div class="svc"><span class="code">03</span><h3 data-i18n="svc_3">Archival document retrieval</h3></div>
         <div class="svc"><span class="code">04</span><h3 data-i18n="svc_4">Building detailed family trees</h3></div>
         <div class="svc"><span class="code">05</span><h3 data-i18n="svc_5">Researching the story of one person</h3></div>

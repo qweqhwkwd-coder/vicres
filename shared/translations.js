@@ -21,9 +21,9 @@ window.VICRES_I18N = {
     nav_contact: "Contact",
     cta_consult: "Request a consultation",
 
-    hero_eyebrow: "Jewish genealogy · Volhynia & Rivne",
-    hero_title: "Turning scattered records into the story of your family",
-    hero_lead: "I trace Jewish ancestry through Ukrainian and Polish archives — reconstructing lineages, recovering documents, and giving your heritage a clear, reliable shape.",
+    hero_eyebrow: "Ancestors · relatives · family history",
+    hero_title: "Finding the people behind your family story",
+    hero_lead: "I trace ancestors, relatives from past generations and lost family branches through archival records — restoring the people behind your family history.",
 
     card_heading: "Researcher file",
     f_name: "Name",
@@ -61,8 +61,8 @@ window.VICRES_I18N = {
 
     services_eyebrow: "Services",
     services_title: "What I can find for you",
-    svc_1: "Reconstructing your family history",
-    svc_2: "Finding ancestors and living relatives",
+    svc_1: "Tracing ancestors and relatives through archives",
+    svc_2: "Reconstructing family branches and connections",
     svc_3: "Archival document retrieval",
     svc_4: "Building detailed family trees",
     svc_5: "Researching the story of one person",
@@ -101,7 +101,7 @@ window.VICRES_I18N = {
     cta_email: "Write an email",
     cta_wa: "Message on WhatsApp",
 
-    footer_role: "Jewish genealogy researcher · Volhynia & Rivne",
+    footer_role: "Jewish genealogy researcher",
     footer_rights: "All rights reserved."
   },
 
@@ -114,9 +114,9 @@ window.VICRES_I18N = {
     nav_contact: "Контакти",
     cta_consult: "Замовити консультацію",
 
-    hero_eyebrow: "Єврейська генеалогія · Волинь і Рівне",
-    hero_title: "Перетворюю розрізнені записи на історію вашої родини",
-    hero_lead: "Досліджую єврейське походження в українських і польських архівах — відновлюю родоводи, знаходжу документи й надаю вашій спадщині чіткої, надійної форми.",
+    hero_eyebrow: "Предки · родичі · історія родини",
+    hero_title: "Знаходжу людей, з яких складається історія вашої родини",
+    hero_lead: "Шукаю в архівах предків, родичів минулих поколінь і втрачені гілки родини — повертаю людей в історію вашої сім’ї.",
 
     card_heading: "Картка дослідниці",
     f_name: "Ім’я",
@@ -154,8 +154,8 @@ window.VICRES_I18N = {
 
     services_eyebrow: "Послуги",
     services_title: "Що я можу для вас знайти",
-    svc_1: "Відновлення історії вашої родини",
-    svc_2: "Пошук предків і живих родичів",
+    svc_1: "Архівний пошук предків і родичів",
+    svc_2: "Відновлення родинних гілок і зв’язків",
     svc_3: "Пошук архівних документів",
     svc_4: "Побудова докладних родинних дерев",
     svc_5: "Дослідження історії однієї людини",
@@ -194,7 +194,7 @@ window.VICRES_I18N = {
     cta_email: "Написати листа",
     cta_wa: "Написати у WhatsApp",
 
-    footer_role: "Дослідниця єврейської генеалогії · Волинь і Рівне",
+    footer_role: "Дослідниця єврейської генеалогії",
     footer_rights: "Усі права захищено."
   },
 
@@ -207,9 +207,9 @@ window.VICRES_I18N = {
     nav_contact: "Kontakt",
     cta_consult: "Umów konsultację",
 
-    hero_eyebrow: "Genealogia żydowska · Wołyń i Równe",
-    hero_title: "Zamieniam rozproszone zapisy w historię Twojej rodziny",
-    hero_lead: "Badam żydowskie pochodzenie w archiwach ukraińskich i polskich — odtwarzam rodowody, odnajduję dokumenty i nadaję Twojemu dziedzictwu jasny, wiarygodny kształt.",
+    hero_eyebrow: "Przodkowie · krewni · historia rodziny",
+    hero_title: "Odnajduję ludzi, którzy tworzą historię Twojej rodziny",
+    hero_lead: "W archiwach odnajduję przodków, krewnych z minionych pokoleń i utracone gałęzie rodzin — przywracam ludzi historii Twojej rodziny.",
 
     card_heading: "Karta badaczki",
     f_name: "Imię i nazwisko",
@@ -247,8 +247,8 @@ window.VICRES_I18N = {
 
     services_eyebrow: "Usługi",
     services_title: "Co mogę dla Ciebie odnaleźć",
-    svc_1: "Odtworzenie historii Twojej rodziny",
-    svc_2: "Poszukiwanie przodków i żyjących krewnych",
+    svc_1: "Archiwalne poszukiwanie przodków i krewnych",
+    svc_2: "Odtwarzanie gałęzi i powiązań rodzinnych",
     svc_3: "Pozyskiwanie dokumentów archiwalnych",
     svc_4: "Budowanie szczegółowych drzew genealogicznych",
     svc_5: "Badanie historii jednej osoby",
@@ -287,7 +287,7 @@ window.VICRES_I18N = {
     cta_email: "Napisz e-mail",
     cta_wa: "Napisz na WhatsApp",
 
-    footer_role: "Badaczka genealogii żydowskiej · Wołyń i Równe",
+    footer_role: "Badaczka genealogii żydowskiej",
     footer_rights: "Wszelkie prawa zastrzeżone."
   },
 
@@ -300,9 +300,9 @@ window.VICRES_I18N = {
     nav_contact: "יצירת קשר",
     cta_consult: "לבקש ייעוץ",
 
-    hero_eyebrow: "גנאלוגיה יהודית · ווהלין ורובנה",
-    hero_title: "הופכת רשומות מפוזרות לסיפור המשפחה שלכם",
-    hero_lead: "אני חוקרת שורשים יהודיים בארכיונים אוקראיניים ופולניים — משחזרת שושלות, מאתרת מסמכים ומעניקה למורשת שלכם צורה ברורה ואמינה.",
+    hero_eyebrow: "אבות ואימהות · קרובי משפחה · סיפור משפחתי",
+    hero_title: "מאתרת את האנשים שמרכיבים את סיפור המשפחה שלכם",
+    hero_lead: "אני מאתרת בארכיונים אבות, קרובי משפחה מדורות קודמים וענפי משפחה שאבדו — ומחזירה את האנשים אל סיפור המשפחה שלכם.",
 
     card_heading: "כרטיס החוקרת",
     f_name: "שם",
@@ -340,8 +340,8 @@ window.VICRES_I18N = {
 
     services_eyebrow: "שירותים",
     services_title: "מה אוכל למצוא עבורכם",
-    svc_1: "שחזור ההיסטוריה של משפחתכם",
-    svc_2: "איתור אבות אבות וקרובים חיים",
+    svc_1: "מחקר ארכיוני לאיתור אבות וקרובי משפחה",
+    svc_2: "שחזור ענפים וקשרים משפחתיים",
     svc_3: "איתור מסמכים בארכיונים",
     svc_4: "בניית עצי משפחה מפורטים",
     svc_5: "מחקר סיפורו של אדם יחיד",
@@ -380,7 +380,7 @@ window.VICRES_I18N = {
     cta_email: "לכתוב אימייל",
     cta_wa: "להודעה בוואטסאפ",
 
-    footer_role: "חוקרת גנאלוגיה יהודית · ווהלין ורובנה",
+    footer_role: "חוקרת גנאלוגיה יהודית",
     footer_rights: "כל הזכויות שמורות."
   }
 };
