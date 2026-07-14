@@ -64,9 +64,6 @@
     document.querySelectorAll("[data-link='wa']").forEach(function (a) {
       a.setAttribute("href", "https://wa.me/" + m.waDigits);
     });
-    document.querySelectorAll("[data-text='wa']").forEach(function (el) {
-      el.textContent = m.waDisplay;
-    });
   }
 
   function markActive(lang) {

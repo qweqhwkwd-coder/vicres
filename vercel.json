@@ -6,7 +6,7 @@
       "headers": [
         {
           "key": "Content-Security-Policy",
-          "value": "default-src 'self'; script-src 'self' 'sha256-AGmEDaskeNPAQX/adHF3TFmHyE5e53WRh3+UWNtcSvk=' 'sha256-Esv6DCarEiPem6jZ2XqavGgB4dsq64tTPAh10teTxSY='; style-src 'self' 'sha256-gFLp04djuD1KXUyR1iher18eJoxgGG07n9Nlz1uQ37I='; font-src 'self'; img-src 'self' data:; connect-src 'none'; media-src 'none'; object-src 'none'; frame-src 'none'; worker-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; manifest-src 'self'; upgrade-insecure-requests"
+          "value": "default-src 'self'; script-src 'self' 'sha256-AGmEDaskeNPAQX/adHF3TFmHyE5e53WRh3+UWNtcSvk=' 'sha256-vqp6GfxxE8uoqOU0Q9XlqKP0a0e5axpM6MPX/XEeDCE='; style-src 'self' 'sha256-gFLp04djuD1KXUyR1iher18eJoxgGG07n9Nlz1uQ37I='; font-src 'self'; img-src 'self' data:; connect-src 'none'; media-src 'none'; object-src 'none'; frame-src 'none'; worker-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; manifest-src 'self'; upgrade-insecure-requests"
         },
         {
           "key": "Referrer-Policy",

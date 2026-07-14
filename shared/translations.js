@@ -8,8 +8,7 @@ window.VICRES_I18N = {
     rtl: ["he"],
     // Contact — same everywhere. WhatsApp digits only for wa.me link.
     email: "rivnejew@gmail.com",
-    waDigits: "3806645062667",
-    waDisplay: "+380 66 450 62 667"
+    waDigits: "3806645062667"
   },
 
   en: {
