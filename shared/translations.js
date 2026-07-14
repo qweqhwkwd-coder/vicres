@@ -47,8 +47,8 @@ window.VICRES_I18N = {
 
     about_eyebrow: "About",
     about_title: "A researcher devoted to Jewish family history",
-    about_p1: "For more than fifteen years I have worked in Ukrainian and Polish archives, specialising in the Jewish history and heritage of Rivne (Równe) and the wider Volhynia region.",
-    about_p2: "I studied Jewish History and Culture at the Faculty of History of the University of Warsaw and worked at the POLIN Museum of the History of Polish Jews. I have also indexed handwritten records and inscriptions from Jewish cemeteries across Volhynian shtetls.",
+    about_p1: "For more than fifteen years I have worked in Ukrainian and Polish archives, specialising in Jewish history and heritage.",
+    about_p2: "I studied Jewish History and Culture at the Faculty of History of the University of Warsaw and worked at the POLIN Museum of the History of Polish Jews. I have also indexed handwritten records and inscriptions from Jewish cemeteries.",
     about_p3: "My research can also cover other regions of Ukraine and Poland. JewishGen lists me among its recommended genealogy researchers for Ukraine.",
 
     cred_polin_t: "POLIN Museum",
@@ -140,8 +140,8 @@ window.VICRES_I18N = {
 
     about_eyebrow: "Про мене",
     about_title: "Дослідниця історії єврейських родин",
-    about_p1: "Понад п’ятнадцять років я працюю в українських і польських архівах, досліджуючи єврейську історію та спадщину Рівного (Równe) і Волині.",
-    about_p2: "Вивчала єврейську історію та культуру на історичному факультеті Варшавського університету та працювала в Музеї історії польських євреїв POLIN. Також індексувала рукописні записи та написи на єврейських надгробках у волинських містечках.",
+    about_p1: "Понад п’ятнадцять років я працюю в українських і польських архівах, досліджуючи єврейську історію та спадщину.",
+    about_p2: "Вивчала єврейську історію та культуру на історичному факультеті Варшавського університету та працювала в Музеї історії польських євреїв POLIN. Також індексувала рукописні записи та написи на єврейських надгробках.",
     about_p3: "Мої дослідження можуть охоплювати й інші регіони України та Польщі. Я входжу до переліку рекомендованих JewishGen дослідників єврейської генеалогії в Україні.",
 
     cred_polin_t: "Музей POLIN",
@@ -233,8 +233,8 @@ window.VICRES_I18N = {
 
     about_eyebrow: "O mnie",
     about_title: "Badaczka historii żydowskich rodzin",
-    about_p1: "Od ponad piętnastu lat pracuję w archiwach ukraińskich i polskich, specjalizując się w żydowskiej historii i dziedzictwie Równego oraz całego Wołynia.",
-    about_p2: "Studiowałam historię i kulturę Żydów na Wydziale Historycznym Uniwersytetu Warszawskiego i pracowałam w Muzeum Historii Żydów Polskich POLIN. Indeksowałam także rękopiśmienne zapisy i inskrypcje z cmentarzy żydowskich w wołyńskich sztetlach.",
+    about_p1: "Od ponad piętnastu lat pracuję w archiwach ukraińskich i polskich, specjalizując się w historii i dziedzictwie żydowskim.",
+    about_p2: "Studiowałam historię i kulturę Żydów na Wydziale Historycznym Uniwersytetu Warszawskiego i pracowałam w Muzeum Historii Żydów Polskich POLIN. Indeksowałam także rękopiśmienne zapisy i inskrypcje z cmentarzy żydowskich.",
     about_p3: "Moje badania mogą obejmować także inne regiony Ukrainy i Polski. JewishGen wymienia mnie wśród rekomendowanych badaczy genealogii dla Ukrainy.",
 
     cred_polin_t: "Muzeum POLIN",
@@ -326,8 +326,8 @@ window.VICRES_I18N = {
 
     about_eyebrow: "אודות",
     about_title: "חוקרת המסורה להיסטוריה המשפחתית היהודית",
-    about_p1: "כבר יותר מחמש-עשרה שנים אני עובדת בארכיונים אוקראיניים ופולניים, מתמחה בהיסטוריה ובמורשת היהודית של רובנה (Rowne) ושל אזור ווהלין כולו.",
-    about_p2: "למדתי היסטוריה ותרבות יהודית בפקולטה להיסטוריה באוניברסיטת ורשה ועבדתי במוזיאון POLIN לתולדות יהודי פולין. בנוסף קיטלגתי רשומות בכתב יד וכתובות מבתי עלמין יהודיים בעיירות ווהלין.",
+    about_p1: "כבר יותר מחמש-עשרה שנים אני עובדת בארכיונים אוקראיניים ופולניים, מתמחה בהיסטוריה ובמורשת יהודית.",
+    about_p2: "למדתי היסטוריה ותרבות יהודית בפקולטה להיסטוריה באוניברסיטת ורשה ועבדתי במוזיאון POLIN לתולדות יהודי פולין. בנוסף קיטלגתי רשומות בכתב יד וכתובות מבתי עלמין יהודיים.",
     about_p3: "אני חוקרת גם אזורים נוספים באוקראינה ובפולין. JewishGen מציג אותי ברשימת חוקרי הגנאלוגיה המומלצים באוקראינה.",
 
     cred_polin_t: "מוזיאון POLIN",
