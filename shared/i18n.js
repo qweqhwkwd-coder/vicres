@@ -8,17 +8,18 @@
   var I = window.VICRES_I18N;
   if (!I) return;
   var LS_KEY = "vicres-lang";
+  function isSupported(lang) { return I.meta.order.indexOf(lang) !== -1; }
 
   function pickInitial() {
     try {
       var q = new URLSearchParams(location.search).get("lang");
-      if (q && I[q]) return q;
+      if (q && isSupported(q)) return q;
     } catch (e) {}
     var saved = null;
     try { saved = localStorage.getItem(LS_KEY); } catch (e) {}
-    if (saved && I[saved]) return saved;
+    if (saved && isSupported(saved)) return saved;
     var nav = (navigator.language || "en").slice(0, 2).toLowerCase();
-    if (I[nav]) return nav;
+    if (isSupported(nav)) return nav;
     return "en";
   }
 
@@ -77,7 +78,7 @@
   }
 
   function apply(lang) {
-    if (!I[lang]) lang = "en";
+    if (!isSupported(lang)) lang = "en";
     var dir = I[lang].dir || "ltr";
     var html = document.documentElement;
     html.setAttribute("lang", lang);

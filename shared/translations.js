@@ -23,7 +23,7 @@ window.VICRES_I18N = {
 
     hero_eyebrow: "Ancestors · relatives · family history",
     hero_title: "Finding the people behind your family story",
-    hero_lead: "I trace ancestors, relatives from past generations and lost family branches through archival records — restoring the people behind your family history.",
+    hero_lead: "I trace ancestors, relatives from earlier generations and lost family branches through archival records — bringing the people behind your family history back into view.",
 
     card_heading: "Researcher file",
     f_name: "Name",
@@ -31,8 +31,8 @@ window.VICRES_I18N = {
     f_focus: "Focus",
     v_focus: "Jewish heritage",
     f_exp: "Experience",
-    v_exp: "15+ years in Ukrainian & Polish archives",
-    f_projects: "Case record",
+    v_exp: "15+ years in Ukrainian and Polish archives",
+    f_projects: "Research record",
     v_projects: "200+ family research projects",
     f_langs: "Working languages",
     v_langs: "Ukrainian · Polish · English",
@@ -48,9 +48,9 @@ window.VICRES_I18N = {
 
     about_eyebrow: "About",
     about_title: "A researcher devoted to Jewish family history",
-    about_p1: "For more than fifteen years I have worked in Ukrainian and Polish archives, specialising in the Jewish history and heritage of Rivne (Rowne) and the wider Volhynia region.",
-    about_p2: "I studied Jewish History and Culture at the Historical Faculty of the University of Warsaw and worked at the POLIN Museum of the History of Polish Jews. I have also indexed handwritten records and Jewish cemeteries across Volhynian shtetls.",
-    about_p3: "My work can extend to other regions of Ukraine and Poland. I am listed among the recommended researchers of Jewish genealogy for Ukraine by JewishGen.",
+    about_p1: "For more than fifteen years I have worked in Ukrainian and Polish archives, specialising in the Jewish history and heritage of Rivne (Równe) and the wider Volhynia region.",
+    about_p2: "I studied Jewish History and Culture at the Faculty of History of the University of Warsaw and worked at the POLIN Museum of the History of Polish Jews. I have also indexed handwritten records and inscriptions from Jewish cemeteries across Volhynian shtetls.",
+    about_p3: "My research can also cover other regions of Ukraine and Poland. JewishGen lists me among its recommended genealogy researchers for Ukraine.",
 
     cred_polin_t: "POLIN Museum",
     cred_polin_d: "Professional experience",
@@ -71,7 +71,7 @@ window.VICRES_I18N = {
     svc_8: "Consultations and research guidance",
 
     process_eyebrow: "How I work",
-    process_title: "From first letter to your family's story",
+    process_title: "From your first message to your family's story",
     step1_t: "Consultation",
     step1_d: "We talk through your family, what you already know, and what you hope to uncover.",
     step2_t: "Agreement & prepayment",
@@ -95,7 +95,7 @@ window.VICRES_I18N = {
 
     contact_eyebrow: "Contact",
     contact_title: "Begin your family's search",
-    contact_lead: "Tell me what you are looking for. I reply personally, and we talk through what is possible.",
+    contact_lead: "Contact me by email or WhatsApp. I reply personally and explain which research paths are realistic.",
     contact_email_l: "Email",
     contact_wa_l: "WhatsApp",
     cta_email: "Write an email",
@@ -107,7 +107,7 @@ window.VICRES_I18N = {
 
   uk: {
     dir: "ltr",
-    doc_title: "Вікторія Чимшит — дослідниця єврейської генеалогії",
+    doc_title: "Victoria Chymshyt — дослідниця єврейської генеалогії",
     nav_about: "Про мене",
     nav_services: "Послуги",
     nav_process: "Як я працюю",
@@ -116,11 +116,11 @@ window.VICRES_I18N = {
 
     hero_eyebrow: "Предки · родичі · історія родини",
     hero_title: "Знаходжу людей, з яких складається історія вашої родини",
-    hero_lead: "Шукаю в архівах предків, родичів минулих поколінь і втрачені гілки родини — повертаю людей в історію вашої сім’ї.",
+    hero_lead: "В архівах я знаходжу предків, родичів минулих поколінь і втрачені гілки родини — відновлюю історії людей, з яких складається ваша сім’я.",
 
     card_heading: "Картка дослідниці",
     f_name: "Ім’я",
-    v_name: "Вікторія Чимшит",
+    v_name: "Victoria Chymshyt",
     f_focus: "Спеціалізація",
     v_focus: "Єврейська спадщина",
     f_exp: "Досвід",
@@ -140,10 +140,10 @@ window.VICRES_I18N = {
     stat_langs_l: "робочі мови",
 
     about_eyebrow: "Про мене",
-    about_title: "Дослідниця, віддана єврейській родинній історії",
-    about_p1: "Понад п’ятнадцять років я працюю в українських і польських архівах, спеціалізуючись на єврейській історії та спадщині Рівного (Ровно) і всієї Волині.",
-    about_p2: "Вивчала єврейську історію та культуру на історичному факультеті Варшавського університету та працювала в Музеї історії польських євреїв POLIN. Також індексувала рукописні записи та єврейські цвинтарі волинських містечок.",
-    about_p3: "Мої дослідження можуть охоплювати й інші регіони України та Польщі. Я входжу до переліку рекомендованих дослідників єврейської генеалогії України на JewishGen.",
+    about_title: "Дослідниця історії єврейських родин",
+    about_p1: "Понад п’ятнадцять років я працюю в українських і польських архівах, досліджуючи єврейську історію та спадщину Рівного (Równe) і Волині.",
+    about_p2: "Вивчала єврейську історію та культуру на історичному факультеті Варшавського університету та працювала в Музеї історії польських євреїв POLIN. Також індексувала рукописні записи та написи на єврейських надгробках у волинських містечках.",
+    about_p3: "Мої дослідження можуть охоплювати й інші регіони України та Польщі. Я входжу до переліку рекомендованих JewishGen дослідників єврейської генеалогії в Україні.",
 
     cred_polin_t: "Музей POLIN",
     cred_polin_d: "Досвід роботи",
@@ -170,7 +170,7 @@ window.VICRES_I18N = {
     step2_t: "Домовленість і передоплата",
     step2_d: "Я окреслюю реалістичний обсяг і план; робота починається з передоплати.",
     step3_t: "Архівний пошук",
-    step3_d: "Шукаю вашу родину в українських і польських архівах, реєстрах та покажчиках.",
+    step3_d: "Шукаю відомості про вашу родину в українських і польських архівах, реєстрах та покажчиках.",
     step4_t: "Аналіз",
     step4_d: "Читаю, розшифровую й тлумачу документи, вписуючи їх в історичний контекст.",
     step5_t: "Звіт",
@@ -188,7 +188,7 @@ window.VICRES_I18N = {
 
     contact_eyebrow: "Контакти",
     contact_title: "Розпочніть пошук вашої родини",
-    contact_lead: "Розкажіть, що ви шукаєте. Я відповідаю особисто, і ми обговорюємо, що можливо зробити.",
+    contact_lead: "Напишіть мені електронною поштою або у WhatsApp. Я відповідаю особисто й пояснюю, які напрями дослідження реалістичні.",
     contact_email_l: "Ел. пошта",
     contact_wa_l: "WhatsApp",
     cta_email: "Написати листа",
@@ -200,7 +200,7 @@ window.VICRES_I18N = {
 
   pl: {
     dir: "ltr",
-    doc_title: "Wiktoria Chymszyt — badaczka genealogii żydowskiej",
+    doc_title: "Victoria Chymshyt — badaczka genealogii żydowskiej",
     nav_about: "O mnie",
     nav_services: "Usługi",
     nav_process: "Jak pracuję",
@@ -209,7 +209,7 @@ window.VICRES_I18N = {
 
     hero_eyebrow: "Przodkowie · krewni · historia rodziny",
     hero_title: "Odnajduję ludzi, którzy tworzą historię Twojej rodziny",
-    hero_lead: "W archiwach odnajduję przodków, krewnych z minionych pokoleń i utracone gałęzie rodzin — przywracam ludzi historii Twojej rodziny.",
+    hero_lead: "W archiwach odnajduję przodków, krewnych z minionych pokoleń i utracone gałęzie rodzin — odtwarzam historie ludzi, którzy tworzą Twoją rodzinę.",
 
     card_heading: "Karta badaczki",
     f_name: "Imię i nazwisko",
@@ -233,10 +233,10 @@ window.VICRES_I18N = {
     stat_langs_l: "języki pracy",
 
     about_eyebrow: "O mnie",
-    about_title: "Badaczka oddana żydowskiej historii rodzinnej",
-    about_p1: "Od ponad piętnastu lat pracuję w archiwach ukraińskich i polskich, specjalizując się w żydowskiej historii i dziedzictwie Równego (Rowne) oraz całego Wołynia.",
-    about_p2: "Studiowałam historię i kulturę Żydów na Wydziale Historycznym Uniwersytetu Warszawskiego i pracowałam w Muzeum Historii Żydów Polskich POLIN. Indeksowałam także rękopiśmienne zapisy i cmentarze żydowskie wołyńskich sztetli.",
-    about_p3: "Moje badania mogą obejmować także inne regiony Ukrainy i Polski. Figuruję na liście rekomendowanych badaczy genealogii żydowskiej dla Ukrainy w serwisie JewishGen.",
+    about_title: "Badaczka historii żydowskich rodzin",
+    about_p1: "Od ponad piętnastu lat pracuję w archiwach ukraińskich i polskich, specjalizując się w żydowskiej historii i dziedzictwie Równego oraz całego Wołynia.",
+    about_p2: "Studiowałam historię i kulturę Żydów na Wydziale Historycznym Uniwersytetu Warszawskiego i pracowałam w Muzeum Historii Żydów Polskich POLIN. Indeksowałam także rękopiśmienne zapisy i inskrypcje z cmentarzy żydowskich w wołyńskich sztetlach.",
+    about_p3: "Moje badania mogą obejmować także inne regiony Ukrainy i Polski. JewishGen wymienia mnie wśród rekomendowanych badaczy genealogii dla Ukrainy.",
 
     cred_polin_t: "Muzeum POLIN",
     cred_polin_d: "Doświadczenie zawodowe",
@@ -281,11 +281,11 @@ window.VICRES_I18N = {
 
     contact_eyebrow: "Kontakt",
     contact_title: "Rozpocznij poszukiwania swojej rodziny",
-    contact_lead: "Napisz, czego szukasz. Odpowiadam osobiście i wspólnie omawiamy, co jest możliwe.",
+    contact_lead: "Napisz do mnie e-mailem lub przez WhatsApp. Odpowiadam osobiście i wyjaśniam, jakie kierunki badań są realistyczne.",
     contact_email_l: "E-mail",
     contact_wa_l: "WhatsApp",
     cta_email: "Napisz e-mail",
-    cta_wa: "Napisz na WhatsApp",
+    cta_wa: "Napisz na WhatsAppie",
 
     footer_role: "Badaczka genealogii żydowskiej",
     footer_rights: "Wszelkie prawa zastrzeżone."
@@ -293,7 +293,7 @@ window.VICRES_I18N = {
 
   he: {
     dir: "rtl",
-    doc_title: "ויקטוריה צ׳ימשיט — חוקרת גנאלוגיה יהודית",
+    doc_title: "Victoria Chymshyt — חוקרת גנאלוגיה יהודית",
     nav_about: "אודות",
     nav_services: "שירותים",
     nav_process: "איך אני עובדת",
@@ -302,11 +302,11 @@ window.VICRES_I18N = {
 
     hero_eyebrow: "אבות ואימהות · קרובי משפחה · סיפור משפחתי",
     hero_title: "מאתרת את האנשים שמרכיבים את סיפור המשפחה שלכם",
-    hero_lead: "אני מאתרת בארכיונים אבות, קרובי משפחה מדורות קודמים וענפי משפחה שאבדו — ומחזירה את האנשים אל סיפור המשפחה שלכם.",
+    hero_lead: "בארכיונים אני מאתרת אבות משפחה, קרובים מדורות קודמים וענפים משפחתיים שאבדו — ומשחזרת את סיפוריהם של האנשים שמהם מורכבת משפחתכם.",
 
     card_heading: "כרטיס החוקרת",
     f_name: "שם",
-    v_name: "ויקטוריה צ׳ימשיט",
+    v_name: "Victoria Chymshyt",
     f_focus: "התמחות",
     v_focus: "מורשת יהודית",
     f_exp: "ניסיון",
@@ -328,8 +328,8 @@ window.VICRES_I18N = {
     about_eyebrow: "אודות",
     about_title: "חוקרת המסורה להיסטוריה המשפחתית היהודית",
     about_p1: "כבר יותר מחמש-עשרה שנים אני עובדת בארכיונים אוקראיניים ופולניים, מתמחה בהיסטוריה ובמורשת היהודית של רובנה (Rowne) ושל אזור ווהלין כולו.",
-    about_p2: "למדתי היסטוריה ותרבות יהודית בפקולטה להיסטוריה באוניברסיטת ורשה ועבדתי במוזיאון POLIN לתולדות יהודי פולין. בנוסף אינדקסתי רשומות בכתב יד ובתי עלמין יהודיים בעיירות ווהלין.",
-    about_p3: "המחקר שלי יכול להתרחב לאזורים נוספים באוקראינה ובפולין. אני מופיעה ברשימת החוקרים המומלצים לגנאלוגיה יהודית עבור אוקראינה באתר JewishGen.",
+    about_p2: "למדתי היסטוריה ותרבות יהודית בפקולטה להיסטוריה באוניברסיטת ורשה ועבדתי במוזיאון POLIN לתולדות יהודי פולין. בנוסף קיטלגתי רשומות בכתב יד וכתובות מבתי עלמין יהודיים בעיירות ווהלין.",
+    about_p3: "אני חוקרת גם אזורים נוספים באוקראינה ובפולין. JewishGen מציג אותי ברשימת חוקרי הגנאלוגיה המומלצים באוקראינה.",
 
     cred_polin_t: "מוזיאון POLIN",
     cred_polin_d: "ניסיון מקצועי",
@@ -343,8 +343,8 @@ window.VICRES_I18N = {
     svc_1: "מחקר ארכיוני לאיתור אבות וקרובי משפחה",
     svc_2: "שחזור ענפים וקשרים משפחתיים",
     svc_3: "איתור מסמכים בארכיונים",
-    svc_4: "בניית עצי משפחה מפורטים",
-    svc_5: "מחקר סיפורו של אדם יחיד",
+    svc_4: "בניית עצי יוחסין מפורטים",
+    svc_5: "חקר סיפור חייו של אדם",
     svc_6: "מסמכים לבקשות אזרחות",
     svc_7: "תעתוק ותרגום של מסמכים",
     svc_8: "ייעוץ וליווי מחקר",
@@ -360,7 +360,7 @@ window.VICRES_I18N = {
     step4_t: "ניתוח",
     step4_d: "אני קוראת, מתעתקת ומפרשת את המסמכים, וממקמת אותם בהקשר היסטורי.",
     step5_t: "דוח",
-    step5_d: "אתם מקבלים דוח ברור — ממצאים, עותקי מסמכים ועץ משפחה.",
+    step5_d: "אתם מקבלים דוח ברור — ממצאים, עותקי מסמכים ועץ יוחסין.",
 
     note_eyebrow: "כדאי לדעת",
     note_conf_t: "סודיות",
@@ -368,17 +368,17 @@ window.VICRES_I18N = {
     note_time_t: "משך הזמן",
     note_time_d: "מחקר נמשך בדרך כלל בין חודש לשלושה — בהתאם למורכבות ולמידע שתוכלו לספק.",
     note_deliver_t: "מה תקבלו",
-    note_deliver_d: "התוצרים משתנים לפי הפרויקט — דוחות, עותקי מסמכים, תרגומים ועצי משפחה.",
+    note_deliver_d: "התוצרים משתנים לפי הפרויקט — דוחות, עותקי מסמכים, תרגומים ועצי יוחסין.",
     note_price_t: "עלות",
     note_price_d: "כל משפחה שונה. העלות נקבעת באופן אישי לאחר הייעוץ הראשון.",
 
     contact_eyebrow: "יצירת קשר",
     contact_title: "התחילו את החיפוש אחר משפחתכם",
-    contact_lead: "ספרו לי מה אתם מחפשים. אני עונה באופן אישי, ויחד נבחן מה אפשרי.",
+    contact_lead: "צרו איתי קשר באימייל או בוואטסאפ. אני עונה באופן אישי ומסבירה אילו כיווני מחקר מציאותיים.",
     contact_email_l: "אימייל",
     contact_wa_l: "וואטסאפ",
-    cta_email: "לכתוב אימייל",
-    cta_wa: "להודעה בוואטסאפ",
+    cta_email: "שלחו אימייל",
+    cta_wa: "שלחו הודעה בוואטסאפ",
 
     footer_role: "חוקרת גנאלוגיה יהודית",
     footer_rights: "כל הזכויות שמורות."

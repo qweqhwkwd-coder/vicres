@@ -19,14 +19,12 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#F5F2EA">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23F5F2EA'/%3E%3Ctext x='16' y='23' font-family='Georgia,serif' font-size='19' fill='%237A5A34' text-anchor='middle'%3EVC%3C/text%3E%3C/svg%3E">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,400&family=Courier+Prime:wght@400;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="shared/fonts.css">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"ProfessionalService","name":"Victoria Chymshyt — Jewish Genealogy Research","description":"Jewish genealogy research focused on tracing ancestors, relatives from past generations and lost family branches through Ukrainian and Polish archives.","areaServed":"Worldwide","knowsLanguage":["uk","pl","en"],"email":"mailto:rivnejew@gmail.com","founder":{"@type":"Person","name":"Victoria Chymshyt","jobTitle":"Jewish Genealogy Researcher","alumniOf":"University of Warsaw"},"hasOfferCatalog":{"@type":"OfferCatalog","name":"Genealogy services","itemListElement":[{"@type":"Offer","itemOffered":{"@type":"Service","name":"Archival ancestor and relative research"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Family branch reconstruction"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Archival document retrieval"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Family tree building"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Documents for citizenship claims"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Transcription and translation"}}]}}
 </script>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Do I need a ready family tree to start?","acceptedAnswer":{"@type":"Answer","text":"No. A single name, a town, or one old document is enough to begin. We build outward from whatever you already have."}},{"@type":"Question","name":"What if records were lost or destroyed in the war?","acceptedAnswer":{"@type":"Answer","text":"Volhynia's history is painful, but a great deal still survives across Ukrainian and Polish archives. I search widely and tell you honestly what is realistic before you commit."}},{"@type":"Question","name":"How long does the research take?","acceptedAnswer":{"@type":"Answer","text":"Usually one to three months, depending on the complexity of the case and how much information you can provide at the start."}},{"@type":"Question","name":"Which regions and languages do you cover?","acceptedAnswer":{"@type":"Answer","text":"I specialise in Rivne and the Volhynia region and work across Ukraine and Poland, reading records in Ukrainian, Polish and English."}},{"@type":"Question","name":"Is my family information kept private?","acceptedAnswer":{"@type":"Answer","text":"Always. Your information and your family's story remain strictly confidential at every stage of the work."}},{"@type":"Question","name":"How much does it cost?","acceptedAnswer":{"@type":"Answer","text":"Every family is different, so the cost is agreed individually after our first, no-obligation consultation."}}]}
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Do I need a ready family tree to start?","acceptedAnswer":{"@type":"Answer","text":"No. A single name, a town, or one old document is enough to begin. We build outward from whatever you already have."}},{"@type":"Question","name":"What if records were lost or destroyed in the war?","acceptedAnswer":{"@type":"Answer","text":"Volhynia's history is painful, but a great deal still survives across Ukrainian and Polish archives. I check multiple sources and explain honestly what is realistic before you commit."}},{"@type":"Question","name":"How long does the research take?","acceptedAnswer":{"@type":"Answer","text":"Usually one to three months, depending on the complexity of the case and how much information you can provide at the start."}},{"@type":"Question","name":"Which regions and languages do you cover?","acceptedAnswer":{"@type":"Answer","text":"I specialise in Rivne and Volhynia, and my research can cover other regions of Ukraine and Poland. Consultations are available in Ukrainian, Polish and English."}},{"@type":"Question","name":"Is my family information kept private?","acceptedAnswer":{"@type":"Answer","text":"Always. Your information and your family's story remain strictly confidential at every stage of the work."}},{"@type":"Question","name":"How much does it cost?","acceptedAnswer":{"@type":"Answer","text":"Every family is different, so the cost is agreed individually after our first, no-obligation consultation."}}]}
 </script>
 <style>
   :root{
@@ -51,8 +49,8 @@
   a{color:inherit}img{max-width:100%;display:block}
   .wrap{max-width:1140px;margin-inline:auto;padding-inline:28px}
   .eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:var(--accent);margin:0 0 18px}
-  .skip{position:absolute;left:-9999px;top:0;background:var(--accent);color:#fff;padding:10px 16px;z-index:100}
-  .skip:focus{left:12px;top:12px}
+  .skip{position:absolute;inset-inline-start:12px;top:0;transform:translateY(-150%);background:var(--accent);color:#fff;padding:10px 16px;z-index:100}
+  .skip:focus{top:12px;transform:translateY(0)}
   :focus-visible{outline:2px solid var(--accent);outline-offset:3px}
 
   header{position:sticky;top:0;z-index:40;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
@@ -119,6 +117,7 @@
   section{padding:80px 0}
   .sec-head{max-width:640px;margin-bottom:44px}
   .sec-head h2{font-size:clamp(30px,4vw,46px)}
+  .section-lead{font-size:17px;color:var(--text-soft);margin-top:14px;max-width:62ch}
   .about-grid{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:start}
   .about-grid p{margin:0 0 20px;color:var(--text-soft);font-size:18px}
   .creds{border:1px solid var(--line);background:var(--surface)}
@@ -176,20 +175,13 @@
   .direct{margin-top:28px;font-family:var(--mono);font-size:13px;color:var(--text-dim)}
   .direct a{color:var(--accent);text-decoration:none;border-bottom:1px solid var(--line)}
 
-  form.consult{background:var(--surface);border:1px solid var(--line);padding:34px;box-shadow:var(--shadow)}
-  .fgroup{margin-bottom:20px}
-  .fgroup label{display:block;font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);margin-bottom:8px}
-  .fgroup input,.fgroup textarea{width:100%;background:var(--bg);border:1px solid var(--line);color:var(--text);font-family:var(--sans);font-size:16px;padding:13px 14px;transition:.15s}
-  .fgroup textarea{min-height:110px;resize:vertical}
-  .fgroup input:focus,.fgroup textarea:focus{outline:0;border-color:var(--accent)}
-  .fgroup [aria-invalid="true"]{border-color:#a4433a}
-  .err{color:#a4433a;font-size:13px;min-height:16px;margin-top:6px;font-family:var(--sans)}
-  :root[data-theme="dark"] .err{color:#e08a80}
-  .form-status{font-family:var(--mono);font-size:13px;color:var(--accent);margin-top:6px}
-  .form-success{background:var(--surface-2);border:1px solid var(--accent);padding:26px;box-shadow:var(--shadow)}
-  .form-success h3{font-family:var(--serif);font-size:26px;margin-bottom:10px}
-  .form-success p{margin:0;color:var(--text-soft)}
-  .form-success a{color:var(--accent)}
+  .contact-card{background:var(--surface);border:1px solid var(--line);padding:34px;box-shadow:var(--shadow)}
+  .contact-card h3{font-family:var(--serif);font-size:30px;margin-bottom:16px}
+  .contact-card p{margin:0;color:var(--text-soft);font-size:16px}
+  .privacy-note{display:flex;gap:12px;align-items:flex-start;padding:18px;background:var(--surface-2);border-inline-start:2px solid var(--accent)}
+  .privacy-note svg{width:20px;height:20px;color:var(--accent);flex:none;margin-top:2px}
+  .contact-hint{margin-top:18px!important}
+  .contact-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
 
   footer{border-top:1px solid var(--line);padding:38px 0}
   .foot{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
@@ -339,7 +331,7 @@
 
   <section id="archive">
     <div class="wrap">
-      <div class="sec-head"><p class="eyebrow" data-i18n="archive_eyebrow">From the archives</p><h2 data-i18n="archive_title">Real records, real families</h2><p class="lead" style="font-size:17px;color:var(--text-soft);margin-top:14px;max-width:60ch" data-i18n="archive_lead">A glimpse of what I work with every day.</p></div>
+      <div class="sec-head"><p class="eyebrow" data-i18n="archive_eyebrow">From the archives</p><h2 data-i18n="archive_title">Real records, real families</h2><p class="lead section-lead" data-i18n="archive_lead">A glimpse of what I work with every day.</p></div>
       <div class="gallery">
         <figure class="plate"><div class="frame"><img src="assets/archive/doc-1.jpg" alt="Archive case file cover from the Rivne State Archive" loading="lazy"></div><figcaption><span class="idx">01</span><span data-i18n="cap_a">Archive case file · Rivne State Archive</span></figcaption></figure>
         <figure class="plate"><div class="frame"><img src="assets/archive/doc-2.jpg" alt="Residents' register with handwritten family names, Równe" loading="lazy"></div><figcaption><span class="idx">02</span><span data-i18n="cap_b">Residents' register with family names</span></figcaption></figure>
@@ -356,7 +348,7 @@
 
   <section id="heritage">
     <div class="wrap">
-      <div class="sec-head"><p class="eyebrow" data-i18n="heritage_eyebrow">Heritage of Rivne</p><h2 data-i18n="heritage_title">The world these records come from</h2><p class="lead" style="font-size:17px;color:var(--text-soft);margin-top:14px;max-width:62ch" data-i18n="heritage_lead">Behind every document is a living town.</p></div>
+      <div class="sec-head"><p class="eyebrow" data-i18n="heritage_eyebrow">Heritage of Rivne</p><h2 data-i18n="heritage_title">The world these records come from</h2><p class="lead section-lead" data-i18n="heritage_lead">Behind every document is a living town.</p></div>
       <div class="masonry">
         <figure class="plate"><img src="assets/plan-rivne.jpg" alt="Historical plan of the city of Rivne (Równe)" loading="lazy"><figcaption><span class="idx">·</span><span data-i18n="her_cap_plan">Plan of the city of Rivne</span></figcaption></figure>
         <figure class="plate"><img src="assets/heritage/couple.jpg" alt="A couple on a Rivne street in the 1930s" loading="lazy"><figcaption><span class="idx">·</span><span data-i18n="her_cap_couple">A couple on a Rivne street, 1930s</span></figcaption></figure>
@@ -405,21 +397,17 @@
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span><b data-i18n="note_time_t">Timeline</b> — <span data-i18n="note_time_d">one to three months.</span></span></li>
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M7 3h7l5 5v13H7z"/><path d="M14 3v5h5"/></svg><span><b data-i18n="note_deliver_t">What you receive</b> — <span data-i18n="note_deliver_d">reports, documents, trees.</span></span></li>
         </ul>
-        <p class="direct" data-i18n="form_direct">Prefer to write directly?</p>
-        <p class="direct"><a data-link="email" data-text="email" href="#">rivnejew@gmail.com</a> · <a data-link="wa" data-text="wa" href="#" target="_blank" rel="noopener">WhatsApp</a></p>
       </div>
       <div>
-        <form class="consult" data-consult-form novalidate>
-          <div class="fgroup"><label for="f-name" data-i18n="form_name_l">Your name</label><input id="f-name" name="name" type="text" data-i18n-attr="placeholder:form_name_ph" autocomplete="name"><div class="err" data-err="name"></div></div>
-          <div class="fgroup"><label for="f-contact" data-i18n="form_contact_l">Email or phone</label><input id="f-contact" name="contact" type="text" data-i18n-attr="placeholder:form_contact_ph" autocomplete="email"><div class="err" data-err="contact"></div></div>
-          <div class="fgroup"><label for="f-msg" data-i18n="form_msg_l">What are you hoping to find?</label><textarea id="f-msg" name="message" data-i18n-attr="placeholder:form_msg_ph"></textarea><div class="err" data-err="message"></div></div>
-          <button class="btn primary" type="submit" data-i18n="form_submit">Send request</button>
-          <p class="form-status" data-form-status hidden></p>
-        </form>
-        <div class="form-success" data-form-success hidden role="status">
-          <h3 data-i18n="form_success_t">Your request is ready</h3>
-          <p><span data-i18n="form_success_d">I've opened WhatsApp with your details.</span> <a data-link="email" data-text="email" href="#">rivnejew@gmail.com</a></p>
-        </div>
+        <aside class="contact-card" aria-labelledby="contact-card-title">
+          <h3 id="contact-card-title" data-i18n="safe_contact_title">Contact Victoria directly</h3>
+          <p class="privacy-note"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 3l7 3v6c0 4-3 6.5-7 9-4-2.5-7-5-7-9V6z"/></svg><span data-i18n="safe_contact_note">For your privacy, this site does not collect names, phone numbers or family details.</span></p>
+          <p class="contact-hint" data-i18n="safe_contact_hint">Open WhatsApp or email and share only what you are comfortable sending.</p>
+          <div class="contact-actions">
+            <a class="btn primary" data-link="wa" href="#" target="_blank" rel="noopener noreferrer" data-i18n="cta_wa">Message on WhatsApp</a>
+            <a class="btn ghost" data-link="email" href="#" data-i18n="cta_email">Write an email</a>
+          </div>
+        </aside>
       </div>
     </div>
   </section>
